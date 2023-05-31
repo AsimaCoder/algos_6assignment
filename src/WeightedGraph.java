@@ -31,4 +31,19 @@ public class WeightedGraph<V> {
         validateVertex(vertex);
         return adjacencyList.get(vertex);
     }
+
+    public void DFS(Vertex<V> startVertex) {
+        validateVertex(startVertex);
+        // Implement DFS traversal logic here
+    }
+
+    private void validateVertex(Vertex<V> vertex) {
+        if (!adjacencyList.containsKey(vertex)) {
+            throw new IllegalArgumentException("Vertex " + vertex + " is not in the graph.");
+        }
+    }
+
+    public Map<Vertex<V>, List<Vertex<V>>> getAdjacencyList() {
+        return adjacencyList;
+    }
 }
