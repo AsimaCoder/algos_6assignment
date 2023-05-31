@@ -18,4 +18,17 @@ public class WeightedGraph<V> {
         validateVertex(destination);
         adjacencyList.get(source).add(destination);
         source.addAdjacentVertex(destination, weight);
-    }}
+    }
+
+    public boolean hasEdge(Vertex<V> source, Vertex<V> destination) {
+        validateVertex(source);
+        validateVertex(destination);
+        List<Vertex<V>> neighbors = adjacencyList.get(source);
+        return neighbors.contains(destination);
+    }
+
+    public List<Vertex<V>> getNeighbors(Vertex<V> vertex) {
+        validateVertex(vertex);
+        return adjacencyList.get(vertex);
+    }
+}
