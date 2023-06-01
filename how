@@ -1,0 +1,17 @@
+[33mcommit e768fee3485e9505bd612e5ed3d0c49a2c379627[m[33m ([m[1;36mHEAD -> [m[1;32mnew_branch[m[33m, [m[1;31morigin/new_branch[m[33m)[m
+Author: AsimaTitanicCoder <asimamyrzabay@example.com>
+Date:   Wed May 31 04:51:50 2023 +0900
+
+    Created Search class
+
+[33mcommit a69766ea25b64173864fc22f81ddee3f0bb02942[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: AsimaTitanicCoder <asimamyrzabay@example.com>
+Date:   Wed May 31 04:39:40 2023 +0900
+
+    Created Vertex class
+
+[33mcommit 9768d45ba43c9e7e9b83a7be8cbfd49f9250194d[m
+Author: AsimaTitanicCoder <asimamyrzabay@example.com>
+Date:   Tue May 30 02:18:35 2023 +0900
+
+    first commit
